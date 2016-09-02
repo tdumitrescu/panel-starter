@@ -4,7 +4,7 @@
   "description": "Starter example app for Panel",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --inline",
+    "start": "webpack-dashboard -- webpack-dev-server --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dev@mixpanel.com",
@@ -23,6 +23,7 @@
     "virtual-jade": "^0.2.2",
     "virtual-jade-loader": "^0.2.2",
     "webpack": "^1.12.9",
+    "webpack-dashboard": "^0.1.8",
     "webpack-dev-server": "^1.14.1"
   }
 }

@@ -1,3 +1,4 @@
+var DashboardPlugin = require('webpack-dashboard/plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
 
@@ -21,6 +22,7 @@ var webpackConfig = {
     ],
   },
   plugins: [
+    new DashboardPlugin(),
     new HtmlWebpackPlugin({
       inject: 'head',
       template: 'index.template.html',
