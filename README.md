@@ -13,6 +13,8 @@ For a more detailed introduction to the app code, see the [tutorial](https://git
 - Start dev server: `npm start`
 - App should be running at [http://localhost:8080](http://localhost:8080)
 
+NB: you need Node.js v4.2 or higher to build! (Check version with `node -v`.)
+
 ## License
 
 MIT
