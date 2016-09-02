@@ -13,6 +13,12 @@
   },
   "author": "dev@mixpanel.com",
   "license": "MIT",
+  "keywords": [
+    "panel",
+    "web components",
+    "virtual-dom",
+    "jade"
+  ],
   "dependencies": {
     "panel": "^0.9.0",
     "virtual-dom": "^2.1.1",
