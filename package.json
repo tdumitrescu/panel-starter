@@ -7,6 +7,10 @@
     "start": "webpack-dashboard -- webpack-dev-server --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tdumitrescu/panel-starter.git"
+  },
   "author": "dev@mixpanel.com",
   "license": "MIT",
   "dependencies": {
